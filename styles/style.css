@@ -1,0 +1,87 @@
+/* font family  */
+/* font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.button-style {
+    background-color: #E76F51;
+    border: 2px solid #E76F51;
+    border-radius: 5px;
+    color: white;
+}
+.orange-text {
+    color: #E76F51;
+}
+
+/* header */
+header {
+    background-color: #264653;
+}
+
+header p {
+    font-weight: 300;
+    color: #E0E0E0;
+}
+
+/* featured section style */
+.grey-scale {
+    filter: grayscale(100%);
+}
+
+/* latest section style */
+.border-radious{
+    border-radius: 10px;
+}
+
+/* clients review */
+.rounded-image {
+    border-radius: 50%;
+    width: 149px;
+    height: 149px;
+}
+
+.fas {
+    color: #E77C40;
+}
+
+/* freequently asked section style */
+.faq-font {
+    font-family: 'Inter', sans-serif;
+}
+
+.faq-font p {
+    color: #7E848C;
+}
+
+.border-style {
+    border: 1px grey solid;
+}
+
+/* rating style */
+.rating h2,
+h3 {
+    color: #363958;
+    font-weight: 700;
+}
+
+.rating .fas {
+    color: #363958;
+}
+
+/* upcoming product style */
+.bg{
+    background-color: #56889c;
+    color: white;
+}
+/* footer style */
+footer {
+    height: 200px;
+    background-color: #111422;
+}

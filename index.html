@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Mania</title>
+  <!-- stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/3108781b2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- header start -->
+  <header>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item pe-4">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link active text-white" href="#">Shop</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link active text-white" href="#">News</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link active text-white" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+            <li class="nav-item ps-5">
+              <button type="button" class="btn button-style px-4">
+                Login
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- banner area  -->
+    <section class="container">
+      <div class="row">
+        <div class="col col-lg-6 col-12 d-flex align-items-center">
+          <div>
+            <p class="mb-2">
+              Computer-controlled digital transistorized with electronic advance
+            </p>
+            <h1 class="text-white fw-bold mb-3">Honda CBR 300R</h1>
+            <p>
+              A motorcycle, often called a motorbike, bike, or cycle, is a two- or
+              three-wheeled motor vehicle. Motorcycle design varies greatly to suit
+              a range of different purposes: long-distance travel, commuting,
+              cruising, sport (including racing), and off-road riding.
+            </p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn button-style px-5 py-2 mt-2" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
+              Purchase
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="exampleModalLabel">AGGRESSIVELY EFFICIENT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-dark">If you’ve got a soft spot for sportbike design and Grand Prix stylings, then
+                      the
+                      2021 Honda CBR300R
+                      is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around
+                      town and on twisty back roads. </p>
+                    <h3>To Order</h3>
+                    <h5>Email us: abcd@gmail.com</h5>
+                    <h5>Call us: 01*********</h5>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="btn button-style px-5 py-2" data-bs-dismiss="modal">
+                      Got it
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5 col col-lg-6 col-12 d-flex align-items-center">
+          <img class="img-fluid" src="images/header-bike.png" alt="">
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- header end -->
+
+  <!-- main start -->
+  <main>
+    <!-- featured section -->
+    <section class="container my-5">
+      <h1 class="text-center fw-bold">Fetured Bikes 2021</h1>
+      <p class="orange-text fw-bold text-center">Best bike collection</p>
+      <div class="row">
+        <div class="col col-lg-4 col-md-6 col-12 gy-5 my-5 d-flex justify-content-center">
+          <img class="grey-scale" src="images/feature-bike.jpg" alt="" width="288px">
+        </div>
+        <div class="col col-lg-4 col-md-6 col-12 gy-5 my-5 d-flex justify-content-center">
+          <img src="images/feature-bike.jpg" alt="" width="288px">
+        </div>
+        <div class="col col-lg-4 col-12 gy-5 my-5 d-flex justify-content-center">
+          <img class="grey-scale" src="images/feature-bike.jpg" alt="" width="288px">
+        </div>
+      </div>
+
+    </section>
+    <!-- latest news section -->
+    <section class="container my-5">
+      <h1 class="text-center fw-bold mb-5">Latest News</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-radious">
+            <img src="images/bike-1.png" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Ducati XDIAVEL S-73</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolorum autem
+                ullam iusto voluptatum illo impedit unde voluptatibus architecto exercitationem!</p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button type="button" class="btn button-style px-3">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-radious">
+            <img src="images/bike-2.png" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Motorcycles & Scooters</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga saepe veniam sunt
+                doloribus reprehenderit libero ullam aliquam sequi a similique.</p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button type="button" class="btn button-style px-3 bg-white orange-text">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-radious">
+            <img src="images/bike-3.png" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">2021 Honda CBR500R</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti facilis
+                maiores. Enim animi dolorum nulla? Consectetur praesentium earum deserunt.</p>
+            </div>
+            <div class="card-footer border-0 bg-white">
+              <button type="button" class="btn button-style px-3 bg-white orange-text">
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- happy clients section -->
+    <section class="container my-5">
+      <h1 class="fw-bold text-center my-4">Happy <span class="orange-text">Clients Says</span></h1>
+      <!-- clients -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center  mt-3 pt-4">
+              <img src="images/user-1.png" class="card-img-top rounded-image" alt="...">
+            </div>
+            <div class="card-body">
+              <p class="card-text text-center">Slate helps you see how <br>
+                many more days you need <br>
+                to work to reach your financial <br>
+                goal for the month and year.</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a class="my-3 text-primary text-decoration-none fw-bold d-flex justify-content-center " href="#">Regina
+                Miles</a>
+              <p class="text-center fw-bold">Banker</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center mt-3 pt-4">
+              <img src="images/user-2.png" class="card-img-top rounded-image" alt="..." height="159px">
+            </div>
+            <div class="card-body">
+              <p class="card-text text-center">Slate helps you see how <br>
+                many more days you need <br>
+                to work to reach your financial <br>
+                goal for the month and year.</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a class="my-3 text-primary text-decoration-none fw-bold d-flex justify-content-center " href="#">Regina
+                Miles</a>
+              <p class="text-center fw-bold">Banker</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="d-flex justify-content-center  mt-3 pt-4">
+              <img src="images/user-3.jpg" class="card-img-top rounded-image" alt="..." height="159px">
+            </div>
+            <div class="card-body">
+              <p class="card-text text-center">Slate helps you see how <br>
+                many more days you need <br>
+                to work to reach your financial <br>
+                goal for the month and year.</p>
+              <div class="d-flex justify-content-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a class="my-3 text-primary text-decoration-none fw-bold d-flex justify-content-center " href="#">Regina
+                Miles</a>
+              <p class="text-center fw-bold">Banker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- frequently asked question section -->
+    <section class="container my-5 faq-font">
+      <h1 class="fw-bold text-center">Frequently Asked <span class="orange-text">Questions</span></h1>
+      <div class="row">
+        <div class="col col-lg-6 col-12 gy-5">
+          <img class="w-100" src="images/faq.png" alt="">
+        </div>
+        <div class="col col-lg-6 col-12 gy-5 my-5">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- item 1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  <p class="fw-bold">What are the most important things I should
+                    know about riding a bike?</p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in
+                    the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused
+                    and legally compliant bike rider. </p>
+                </div>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="accordion-item  mt-3 border">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  <p class="fw-bold">How can I tell if my helmet is old and I need a
+                    new one?</p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <p>We are completely available 24/7. You can <strong>Call</strong> us on 01********* or can
+                    <Strong>Email</Strong> us on abcd@gmail.com. We always try our level best to answer immediately
+                    after you remember us.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="accordion-item  mt-3 border">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  <p class="fw-bold">My bike has been in storage is it safe to ride?</p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <p>Hae vai apni chalan bike. Jevabe iccha chalan. Bulet train er theke druto chalan. Na chalale kinsen
+                    keno. Kinsen so chalan. Obossoi safe. Calaye dekhen na ekbar ki ase r jibone</p>
+                </div>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="accordion-item  mt-3 border">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour">
+                  <p class="fw-bold">What rules should I follow when riding my bike?</p>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                  <p>Vai samne dekhe chalaben. Chalayei jaben. Apni bachle somaj bachbe, desh bachbe. Apni desher
+                    mulloban sompod. Dhonnobad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Overall rating -->
+    <section class="container my-5 bg-light">
+      <h1 class="text-center fw-bold pt-3">Our Overall <span class="orange-text">Ratings</span></h1>
+      <div class="d-flex align-items-center justify-content-evenly rating">
+        <div class="mt-5 mb-5 align-middle">
+          <h3>Average user rating</h3>
+          <h2>4.5 <small>/5</small></h2>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="w-50 ms-2 align-middle">
+
+          <div class="progress mb-2">
+            <p class="fw-bold">5<i class="fas fa-star"></i></p>
+            <div class="progress-bar bg-success" role="progressbar" style="width: 77%" aria-valuenow="77"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-2">
+            <p class="fw-bold">4<i class="fas fa-star"></i></p>
+            <div class="progress-bar pink-bg" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-2">
+            <p class="fw-bold">3<i class="fas fa-star"></i></p>
+            <div class="progress-bar bg-info" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-2">
+            <p class="fw-bold">2<i class="fas fa-star"></i></p>
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 15%" aria-valuenow="15"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="progress mb-2">
+            <p class="fw-bold">1<i class="fas fa-star"></i></p>
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 4%" aria-valuenow="4" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <hr class="container">
+    <!-- carousel upcoming product section-->
+    <section class="container my-5 bg">
+      <h1 class="text-center fw-bold pt-5">Upcoming Strome <i class="fas fa-fire"></i></h1>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col col-lg-6 col-12 d-flex align-items-center ">
+                <img src="images/latest-1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="d-flex align-items-center col col-lg-6 col-12">
+                <div>
+                  <h1 class="fw-bold mt-5">TVS Apache RTR 200 4V Single-Channel ABS</h1>
+                  <p>TVS has introduced a more affordable variant of the RTR 200 4V</p>
+                  <h2>$4000</h2>
+                  <button type="button" class="btn button-style px-3 mb-3">
+                    Pre-Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col col-lg-6 col-12 d-flex align-items-center px-3">
+                <img src="images/latest-3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="d-flex align-items-center col col-lg-6 col-12">
+                <div>
+                  <h1 class="fw-bold mt-5">Yamaha KTM R15</h1>
+                  <p>The KTM RC 200 is powered by 199.5cc BS6 engine which develops a power of 25.4 bhp and a torque of
+                    19.5 Nm.</p>
+                  <h2>$3730</h2>
+                  <button type="button" class="btn button-style px-3 mb-3 ">
+                    Pre-Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col col-lg-6 col-12 d-flex align-items-center px-3 mb-3">
+                <img src="images/latest-2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="d-flex align-items-center col col-lg-6 col-12">
+                <div>
+                  <h1 class="fw-bold mt-5">Black Yamaha YZF R6</h1>
+                  <p>a new benchmark for biking. It brings the most advanced Yamaha Blue Core concept to offer bikers an
+                    unmatched experience of performance and efficiency.</p>
+                  <h2>$5732</h2>
+                  <button type="button" class="btn button-style px-3 mb-3">
+                    Pre-Order Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- carousel end -->
+  </main>
+  <!-- main end -->
+  <!-- footer start -->
+  <footer>
+    <h1 class="text-center fw-bold pt-4"><span class="text-white">Bike</span> <span class="orange-text">Mania</span>
+    </h1>
+    <p class="text-white text-center pb-0">©2021. All rights reserved. Bike Mania, Bangladesh.</p>
+  </footer>
+  <!-- js bootstrap file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
